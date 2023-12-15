@@ -1,0 +1,12 @@
+path
+C:\msys64\mingw64\bin
+C:\msys64\mingw64\include
+
+PKG_CONFIG_PATH
+C:\msys64\ucrt64\lib\pkgconfig:C:\msys64\ucrt64\share\pkgconfig
+
+PKG_CONFIG_SYSTEM_INCLUDE_PATH
+C:\msys64\ucrt64\include
+
+PKG_CONFIG_SYSTEM_LIBRARY_PATH
+C:\msys64\ucrt64\lib	
