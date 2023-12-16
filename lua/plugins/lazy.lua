@@ -41,6 +41,7 @@ require("lazy").setup({
 			"hrsh7th/cmp-nvim-lsp",
 			"hrsh7th/cmp-path",
 			"saadparwaiz1/cmp_luasnip",
+			"hrsh7th/cmp-nvim-lsp-signature-help",
 			"L3MON4D3/LuaSnip",
 		}
 	},
@@ -49,6 +50,7 @@ require("lazy").setup({
 	'nvim-telescope/telescope.nvim', tag = '0.1.5',
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
-	{ "https://github.com/rafamadriz/neon.git" }
+	{ "https://github.com/rafamadriz/neon.git" },
+	{ "https://github.com/neoclide/coc.nvim.git" }
 }
 )
