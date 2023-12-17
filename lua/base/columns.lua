@@ -1,5 +1,4 @@
 local wo = vim.wo
-local g = vim.g
 local opt = vim.opt
 
 wo.number = true
