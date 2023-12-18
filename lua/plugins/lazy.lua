@@ -24,6 +24,7 @@ require("lazy").setup({
       "MunifTanjim/nui.nvim",
   	}
 	},
+	{ "https://github.com/teawhithhh/nvim_auto_compiler.git" },
 	{'nvim-treesitter/nvim-treesitter'},
 	{'neovim/nvim-lspconfig'},
 	{'Abstract-IDE/Abstract-cs'},
