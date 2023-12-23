@@ -52,6 +52,9 @@ require("lazy").setup({
 		dependencies = { 'nvim-lua/plenary.nvim' }
 	},
 	{ "https://github.com/rafamadriz/neon.git" },
-	{ "https://github.com/neoclide/coc.nvim.git" }
+	{ "https://github.com/neoclide/coc.nvim.git" },
+	{ "https://github.com/MunifTanjim/nui.nvim.git" },
+	{ "https://github.com/VonHeikemen/fine-cmdline.nvim.git" },
+	{'akinsho/toggleterm.nvim', version = "*", config = true}
 }
 )

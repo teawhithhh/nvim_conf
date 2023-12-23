@@ -4,5 +4,4 @@ NM('<space>w', ':w<CR>')
 NM('<space>q', ':q<CR>')
 
 IM('jj', '<Esc>')
-NM(';', ':')
-VM(';', ':')
+NM(';', ':FineCmdline<CR>')
