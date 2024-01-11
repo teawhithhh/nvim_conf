@@ -28,14 +28,18 @@ require("lazy").setup({
 	{'nvim-treesitter/nvim-treesitter'},
 	{'neovim/nvim-lspconfig'},
 	{'Abstract-IDE/Abstract-cs'},
+	{'rmagatti/auto-session'},
 	{'catppuccin/nvim', name = 'catppuccin', priority = 1000},
+	{
+			'nvim-lualine/lualine.nvim',
+			dependencies = { 'nvim-tree/nvim-web-devicons' }
+	},
 	{'xiyaowong/transparent.nvim'},
 	{
 		'windwp/nvim-autopairs',
     event = "InsertEnter",
     opts = {}
 	},
-  { "williamboman/mason.nvim"},
 	{
 		"hrsh7th/nvim-cmp",
 		dependencies = {
@@ -46,10 +50,17 @@ require("lazy").setup({
 			"L3MON4D3/LuaSnip",
 		}
 	},
+	{ 'crispybaccoon/evergarden' },
 	{ "https://github.com/p00f/clangd_extensions.nvim.git" },
 	{
 	'nvim-telescope/telescope.nvim', tag = '0.1.5',
-		dependencies = { 'nvim-lua/plenary.nvim' }
+		dependencies = { 'nvim-lua/plenary.nvim',
+										 'debugloop/telescope-undo.nvim',
+									 }
+	},
+	{
+ 		'stevearc/dressing.nvim',
+ 		opts = {},
 	},
 	{ "https://github.com/rafamadriz/neon.git" },
 	{ "https://github.com/neoclide/coc.nvim.git" },

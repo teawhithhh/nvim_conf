@@ -11,5 +11,6 @@
 
 --vim.cmd[[colorscheme neon]]
 
-vim.cmd[[colorscheme catppuccin-frappe]]
-vim.cmd[[:TransparentDisable]]
+vim.cmd[[highlight NeoTreeFloatBorder guibg = #272E32]]
+vim.cmd[[colorscheme evergarden]]
+

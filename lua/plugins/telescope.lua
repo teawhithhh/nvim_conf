@@ -12,6 +12,9 @@ require('telescope').setup{
     }
   },
   pickers = {
+		find_files = {
+			theme = "dropdown",
+		},
     -- Default configuration for builtin pickers goes here:
     -- picker_name = {
     --   picker_config_key = value,
@@ -21,6 +24,7 @@ require('telescope').setup{
     -- builtin picker
   },
   extensions = {
+		undo = {},
     -- Your extension configuration goes here:
     -- extension_name = {
     --   extension_config_key = value,
@@ -28,3 +32,6 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   }
 }
+
+
+require('telescope').load_extension("undo")

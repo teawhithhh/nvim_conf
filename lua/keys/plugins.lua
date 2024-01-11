@@ -3,6 +3,13 @@ require('keys/alias')
 -- AUTO COMPILE  KEYBINDS --
 	NM('<S-i>', ':Compile<CR>')
 
+-- LSP CODE ACTIONS --
+	NM('<S-m>', ':lua vim.lsp.buf.code_action()<CR>')
+
+-- TELESCOPE KEYBINDS --
+	NM('<space>h', ':Telescope live_grep<CR>')
+	NM('<space>m', ':Telescope find_files<CR>')
+
 -- NEOTREE KEYBINDS --
 	NM('<Space>e', ':Neotree float focus<CR>')
 	NM('<Space>o', ':Neotree float git_status<CR>')

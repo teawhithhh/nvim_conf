@@ -7,4 +7,4 @@ vim.fn.sign_define("DiagnosticSignError",
       vim.fn.sign_define("DiagnosticSignHint",
         {text = "󰌵", texthl = "DiagnosticSignHint"})
 
-require("neo-tree").setup({enable_git_status = false})
+require("neo-tree").setup({popup_border_style = "rounded", enable_git_status = false})

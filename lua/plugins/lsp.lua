@@ -20,3 +20,6 @@ lspconfig.lua_ls.setup {
     }
   }
 }
+
+lspconfig.html.setup{	filetypes =  { "html" } }
+lspconfig.cssls.setup{ filetypes = { "css" } }
